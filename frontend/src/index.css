@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container {
+    display: grid;
+    grid-gap: 16px;
+  }
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li {
+    font-size: 20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li :hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+  #loginBtn,#signupBtn,#registered,#menu{
+    text-align: center;
+    color: white;
+    padding: 14px 16px;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  #profileContent{
+    display: flex;
+  }
+  #profile{
+    display: flex;
+    margin-top: 50px; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: red;
+  }
+#uForm,#fForm,#lForm,#eForm,#pForm,#aForm,#mForm{
+    font-size: small;
+}
+#menu:hover{
+  cursor: pointer;
+}
+
+#rollno,#pass{
+    font-size: medium;
+    background-color: beige;
+}
